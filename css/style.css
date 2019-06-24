@@ -1,0 +1,157 @@
+.navbar-brand 
+{
+    background-color:rgb(114, 211, 243); 
+}
+.header
+{
+background-color: white;
+}
+.navbar-brand 
+{
+    color:black;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-family: 'Rubik Mono One';
+    font-size: 22px;
+}
+.navbar-header
+{
+  color:white;
+}
+.collapse navbar-collapse
+{
+  background-color: rgb(248, 118, 118);
+}
+.navbar-nav
+color:rgb(248, 118, 118);
+font-style: bold
+} */
+.navbar-brand 
+{
+    padding:13px 15px;
+}
+.navbar-custom
+{
+  background-color:rgb(114, 211, 243);
+}
+.carousel-caption
+{
+  text-align:center;
+}
+
+@media (min-width:1200px)
+{
+ .carousel-inner .carousel-item > img
+{
+   height:500px; 
+   width:100%;
+}
+}
+@media (max-width:768px)
+{
+ .carousel-inner .carousel-item > img
+{
+   height:310px; 
+   width:100%;
+}
+}
+@media (max-width:768px)
+{
+ .carousel-inner .carousel-item > img
+{
+   height:270px; 
+   width:100%;
+}
+}
+
+/* .container-fluid
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    background-color: #2196F3;
+    padding: 30px;
+    justify-items:center;
+    align-items:center;
+    justify-content:space evenly;
+  }  */
+  
+.form
+{
+  text-align: center;
+  justify-items:center;
+    align-items:center;
+    justify-content:space evenly;
+    padding:15px;
+}
+.map-container-7
+{
+  overflow:hidden;
+  padding-bottom:0px;
+  position:relative;
+  height:0px;
+  }
+  .map-container-7 iframe
+  {
+  left:0;
+  top:0;
+  height:80%;
+  width:100%;
+  position:absolute;
+  }
+  .section-heading
+  {
+    text-align:center;
+    
+  }
+  .section
+  {
+    background-color: rgb(247, 243, 243);
+  }
+  .footer
+  {
+    background-color: rgb(247, 243, 243);
+  }
+  
+  .container-fluid {
+    display: grid;
+    grid-template-columns: auto -1px auto 0px;
+    grid-column-gap: 10px;
+    grid-row-gap:40px;
+    background-color:rgb(248, 118, 118);
+    padding: 20px;
+    justify-items:center;
+    align-items:left;
+    justify-content:space evenly;
+    text-align:center;
+  
+   
+  }
+  
+   .container-fluid > .offers 
+  {
+    margin:0px;
+    text-align: center; 
+    background-color:rgb(248, 118, 118);
+    padding: 20px;
+    font-size:18px;
+    justify-items:center; 
+    grid-row-gap:60px;
+    grid-column-gap: 40px; 
+    
+    justify-content:space evenly;
+     text-align:center; 
+     
+  } 
+.container-fluid .panel
+  {
+   background-color:rgb(231, 227, 227); 
+    justify-items:center;
+    justify-content:space evenly;
+    text-align:center;
+    /* padding:30px; */
+    align-items: center;
+   
+    
+  }  
